@@ -1,10 +1,10 @@
 import tweepy #python jewel for twitter API
 from time import sleep #used to set tweet interval
 
-consumer_key = 'ZQnIqEMo98yRSfYlLHAaPposO'
-consumer_secret ='QtOPS01OJCAaUIVeRL8P3vwd0rv5AoXkTMfLq1ZgrkIZ2UVviJ'
-access_token = '822328817565868032-VPuIk19SMb8zfNTozn9vw0zkOv0GEHi'
-access_token_secret = 'dCqeTWQC5MR7nek47kK3y7bL8CMPq2ARsKpKge1TT1gY1'
+consumer_key = 'ZQnIqEMoHAaPposO'
+consumer_secret ='QtOPS01OeRL8P3v0rv5AoXkTMfLq1ZgrkIZ2UVviJ'
+access_token = '82232881756586803NTozn9vw0zkOv0GEHi'
+access_token_secret = 'dCqeTWQC5MR7nek47kK3y7bL8Y1'
 
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(access_token, access_token_secret)
